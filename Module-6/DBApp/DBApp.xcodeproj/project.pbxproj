@@ -15,6 +15,8 @@
 		D83C77AE2A84E0AF00092B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D83C77AC2A84E0AF00092B5A /* LaunchScreen.storyboard */; };
 		D83C77BB2A84E19D00092B5A /* DMLOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C77BA2A84E19D00092B5A /* DMLOperations.swift */; };
 		D83C77BF2A84E1F100092B5A /* demodb.db in Resources */ = {isa = PBXBuildFile; fileRef = D83C77BE2A84E1F100092B5A /* demodb.db */; };
+		D88C896E2A8B728A00444930 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C896D2A8B728A00444930 /* SignupViewController.swift */; };
+		D88C89722A8B729500444930 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88C89712A8B729500444930 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		D83C77AF2A84E0AF00092B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D83C77BA2A84E19D00092B5A /* DMLOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMLOperations.swift; sourceTree = "<group>"; };
 		D83C77BE2A84E1F100092B5A /* demodb.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = demodb.db; sourceTree = "<group>"; };
+		D88C896D2A8B728A00444930 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D88C89712A8B729500444930 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				D83C77A52A84E0AE00092B5A /* ViewController.swift */,
+				D88C896D2A8B728A00444930 /* SignupViewController.swift */,
+				D88C89712A8B729500444930 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,8 +184,10 @@
 			files = (
 				D83C77A62A84E0AE00092B5A /* ViewController.swift in Sources */,
 				D83C77A22A84E0AE00092B5A /* AppDelegate.swift in Sources */,
+				D88C896E2A8B728A00444930 /* SignupViewController.swift in Sources */,
 				D83C77A42A84E0AE00092B5A /* SceneDelegate.swift in Sources */,
 				D83C77BB2A84E19D00092B5A /* DMLOperations.swift in Sources */,
+				D88C89722A8B729500444930 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
