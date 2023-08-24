@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80EEFE92A97524200E7D3EC /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EEFE82A97524200E7D3EC /* DataViewController.swift */; };
+		D80EEFEC2A97529500E7D3EC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80EEFEB2A97529500E7D3EC /* TableViewCell.swift */; };
 		D83C77A22A84E0AE00092B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C77A12A84E0AE00092B5A /* AppDelegate.swift */; };
 		D83C77A42A84E0AE00092B5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C77A32A84E0AE00092B5A /* SceneDelegate.swift */; };
 		D83C77A62A84E0AE00092B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C77A52A84E0AE00092B5A /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80EEFE82A97524200E7D3EC /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D80EEFEB2A97529500E7D3EC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		D83C779E2A84E0AE00092B5A /* DBApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D83C77A12A84E0AE00092B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D83C77A32A84E0AE00092B5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				D83C77A52A84E0AE00092B5A /* ViewController.swift */,
 				D88C896D2A8B728A00444930 /* SignupViewController.swift */,
 				D88C89712A8B729500444930 /* HomeViewController.swift */,
+				D80EEFE82A97524200E7D3EC /* DataViewController.swift */,
+				D80EEFEB2A97529500E7D3EC /* TableViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,6 +189,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D83C77A62A84E0AE00092B5A /* ViewController.swift in Sources */,
+				D80EEFEC2A97529500E7D3EC /* TableViewCell.swift in Sources */,
+				D80EEFE92A97524200E7D3EC /* DataViewController.swift in Sources */,
 				D83C77A22A84E0AE00092B5A /* AppDelegate.swift in Sources */,
 				D88C896E2A8B728A00444930 /* SignupViewController.swift in Sources */,
 				D83C77A42A84E0AE00092B5A /* SceneDelegate.swift in Sources */,
