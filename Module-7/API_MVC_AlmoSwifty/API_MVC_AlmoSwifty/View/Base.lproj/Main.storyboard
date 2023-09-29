@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="API_MVC_AlmoSwifty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZsU-sF-k7P">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="zqf-nv-wlq"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="bpd-cM-DM7"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ZsU-sF-k7P" secondAttribute="bottom" id="kEB-AI-URi"/>
+                            <constraint firstAttribute="trailing" secondItem="ZsU-sF-k7P" secondAttribute="trailing" id="krE-Z1-Bxd"/>
+                            <constraint firstItem="ZsU-sF-k7P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="opx-FG-GUL"/>
+                            <constraint firstItem="ZsU-sF-k7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tnH-0d-Gyc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="ZsU-sF-k7P" id="k2M-FS-psB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-394" y="49"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J0V-8u-Mcb">
+            <objects>
+                <viewController storyboardIdentifier="mapVC" id="gi1-6S-q6r" customClass="MAPViewController" customModule="API_MVC_AlmoSwifty" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QOA-ZS-0fh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hzV-fb-WAY">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="45Y-3t-LYc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="45Y-3t-LYc" firstAttribute="bottom" secondItem="hzV-fb-WAY" secondAttribute="bottom" id="2I1-fy-4X7"/>
+                            <constraint firstItem="hzV-fb-WAY" firstAttribute="leading" secondItem="45Y-3t-LYc" secondAttribute="leading" id="JXS-Mr-ltn"/>
+                            <constraint firstItem="hzV-fb-WAY" firstAttribute="top" secondItem="45Y-3t-LYc" secondAttribute="top" id="Vym-i8-1N1"/>
+                            <constraint firstItem="45Y-3t-LYc" firstAttribute="trailing" secondItem="hzV-fb-WAY" secondAttribute="trailing" id="z5l-lR-VUg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="hzV-fb-WAY" id="LUQ-Xl-hMR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7h-OK-JRg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="240" y="48"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
