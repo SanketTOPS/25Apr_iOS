@@ -1,0 +1,6 @@
+framework module Pods_FloatingLabelApp {
+  umbrella header "Pods-FloatingLabelApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
