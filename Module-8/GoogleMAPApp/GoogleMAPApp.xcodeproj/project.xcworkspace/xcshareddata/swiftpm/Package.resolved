@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "GoogleMaps",
+        "repositoryURL": "https://github.com/YAtechnologies/GoogleMaps-SP.git",
+        "state": {
+          "branch": null,
+          "revision": "684ea6db362feaefdfcff89356e446bec8bcde3d",
+          "version": "7.2.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
